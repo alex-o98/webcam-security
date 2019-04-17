@@ -12,7 +12,7 @@ To add new faces create a new folder in the folder "ids" with the name of the pe
 
 The "TO CHANGE" has to be changed acordignly in order to connect to the FTP server.
 
-The program has been built for Windows, with the intention to be transfered on a local server running linux, and the files run.bat and stop.bat should be changed to execute or stop face_recon.py.
+The program has been built for Windows, with the intention to be transfered on a local server running linux, and the files run.bat and stop.bat should be changed to execute or stop face_recon.py. Also, in order to run it in linux run.bat needs to be changed accordingly, where the FIRST is the path to the Python Environment (python.exe) and SECOND is the path to face_recon.py
 
 Because face_recon.py has been designed only for a camera, if it is implemented in an advanced security system, face_recon.py should be changed so that it works on multiple cameras at once (Maybe even have it read every single camera available and adjust the program to that). 
 
