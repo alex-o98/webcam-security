@@ -6,11 +6,14 @@ face_recon.py works by detecting movement or face in a camera. If any movement h
 
 # Known issues / Things to be changed
 
+The "TO CHANGE" has to be changed acordignly in order to connect to the FTP server.
+
 The program has been built for Windows, with the intention to be transfered on a local server running linux, and the files run.bat and stop.bat should be changed to execute or stop face_recon.py.
 
 Because face_recon.py has been designed only for a camera, if it is implemented in an advanced security system, face_recon.py should be changed so that it works on multiple cameras at once (Maybe even have it read every single camera available and adjust the program to that). 
 
 Even though it requires a lot of power to run the face detection, in a real environment (depending on how the cameras are pointed) it is unlikely to detect faces in multiple cameras (in case of a break-in). That is not a problem for the motion detection algorithm as it is relatively light weight.
+
 
 # Future updates
   - Have it save locally new unkown faces and asign a value to that person.
