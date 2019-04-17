@@ -6,7 +6,9 @@ face_recon.py works by detecting movement or face in a camera. If any movement h
 
 # Known issues / Things to be changed before running
 
-Download the model from [here](https://drive.google.com/file/d/0B5MzpY9kBtDVZ2RpVDYwWmxoSUk/edit) and extract everything into the folder models.
+Download the model from [here](https://drive.google.com/file/d/0B5MzpY9kBtDVZ2RpVDYwWmxoSUk/edit) and extract everything into a folder called models.
+
+To add new faces create a new folder in the folder "ids" with the name of the person and add pictures of faces (The pictures do not need to have a specific name but it needs to have only the face of the person in it).
 
 The "TO CHANGE" has to be changed acordignly in order to connect to the FTP server.
 
